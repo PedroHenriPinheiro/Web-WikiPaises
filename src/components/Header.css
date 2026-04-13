@@ -1,0 +1,45 @@
+.header {
+  background: #0f1117;
+  border-bottom: 1px solid #1e2230;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  letter-spacing: -0.02em;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.globe {
+  font-size: 1.4rem;
+}
+
+.tagline {
+  font-size: 0.78rem;
+  color: #4a5568;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .tagline { display: none; }
+}
