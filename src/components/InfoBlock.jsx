@@ -1,4 +1,4 @@
-import styles from './InfoBlock.css'
+import styles from './InfoBlock.module.css'
 
 export default function InfoBlock({label, value}) {
     return (
